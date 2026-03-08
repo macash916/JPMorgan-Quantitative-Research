@@ -6,7 +6,7 @@
 
 > Completed quantitative research projects covering commodity price forecasting, contract valuation, credit risk modeling, and machine learning optimization.
 
-## 🎯 Project Overview
+## Project Overview
 
 This repository contains my solutions to the **JP Morgan Chase Quantitative Research Virtual Experience** from Forage. The program simulates real-world quantitative analyst tasks across commodity trading and retail banking divisions.
 
@@ -18,16 +18,16 @@ This repository contains my solutions to the **JP Morgan Chase Quantitative Rese
 
 ---
 
-## 📊 Tasks Completed
+## Tasks Completed
 
 ### **Task 1: Natural Gas Price Forecasting**
 Built a time series forecasting model to predict natural gas prices for storage contract valuation.
 
 **Highlights:**
-- 📈 Polynomial regression with seasonal components (sine/cosine transformations)
-- 🎯 Achieved **93.7% accuracy** (R² = 0.937, RMSE = $0.19)
-- ⚡ Identified seasonal patterns: winter prices $1.08 higher than summer
-- 🔧 Delivered `estimate_gas_price()` function for trading desk
+- Polynomial regression with seasonal components (sine/cosine transformations)
+- Achieved **93.7% accuracy** (R² = 0.937, RMSE = $0.19)
+- Identified seasonal patterns: winter prices $1.08 higher than summer
+- Delivered `estimate_gas_price()` function for trading desk
 
 **Technologies:** Python, NumPy, Pandas, Scikit-learn, Matplotlib
 
@@ -39,10 +39,10 @@ Built a time series forecasting model to predict natural gas prices for storage 
 Developed a comprehensive pricing model for natural gas storage contracts accounting for all costs.
 
 **Highlights:**
-- 💰 Built contract valuation integrating Task 1 price forecasts
-- 📊 Modeled injection/withdrawal costs, storage fees, and capacity constraints
-- ✅ Tested scenarios: simple, multi-transaction, large volume, short-term
-- 🎯 Key finding: Summer-to-winter storage contracts yield **$1M+ profits**
+- Built contract valuation integrating Task 1 price forecasts
+- Modeled injection/withdrawal costs, storage fees, and capacity constraints
+- Tested scenarios: simple, multi-transaction, large volume, short-term
+- Key finding: Summer-to-winter storage contracts yield **$1M+ profits**
 
 **Technologies:** Python, NumPy, Pandas, Financial Mathematics
 
@@ -54,11 +54,11 @@ Developed a comprehensive pricing model for natural gas storage contracts accoun
 Created machine learning models to predict mortgage defaults and calculate expected losses.
 
 **Highlights:**
-- 🤖 Trained 3 models: Logistic Regression, Random Forest, Gradient Boosting
-- 🏆 Achieved **perfect discrimination**: AUC = 1.000, 100% recall, 98.1% precision
-- 💡 Identified **credit lines outstanding** as #1 default predictor
-- 💵 Calculated **$1.55M expected loss** on $8.4M portfolio (18.54% loss rate)
-- 📈 Segmented portfolio into Low/Medium/High risk (78.5% / 1.6% / 20.0%)
+- Trained 3 models: Logistic Regression, Random Forest, Gradient Boosting
+- Achieved **perfect discrimination**: AUC = 1.000, 100% recall, 98.1% precision
+- Identified **credit lines outstanding** as #1 default predictor
+- Calculated **$1.55M expected loss** on $8.4M portfolio (18.54% loss rate)
+- Segmented portfolio into Low/Medium/High risk (78.5% / 1.6% / 20.0%)
 
 **Technologies:** Python, Scikit-learn, Pandas, Matplotlib, Seaborn
 
@@ -70,11 +70,11 @@ Created machine learning models to predict mortgage defaults and calculate expec
 Optimized FICO score bucketing for mortgage default prediction using two mathematical approaches.
 
 **Highlights:**
-- 🔬 Implemented **MSE** (quantile-based) and **Log-Likelihood** (decision tree) optimization
-- 📊 Log-Likelihood approach is **63% more discriminative** (57% vs 35% default range)
-- 🎯 Created 5-tier rating system: Rating 5 (66% default) to Rating 1 (9% default)
-- 🔑 Identified **FICO 640 as critical threshold**: 20%+ default below, 9% above
-- ⚡ Delivered production-ready `bucket_fico_scores()` function for future datasets
+- Implemented **MSE** (quantile-based) and **Log-Likelihood** (decision tree) optimization
+- Log-Likelihood approach is **63% more discriminative** (57% vs 35% default range)
+- Created 5-tier rating system: Rating 5 (66% default) to Rating 1 (9% default)
+- Identified **FICO 640 as critical threshold**: 20%+ default below, 9% above
+- Delivered production-ready `bucket_fico_scores()` function for future datasets
 
 **Technologies:** Python, Scikit-learn, Decision Trees, Dynamic Programming
 
@@ -116,7 +116,7 @@ Optimized FICO score bucketing for mortgage default prediction using two mathema
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 ```bash
@@ -152,7 +152,7 @@ python jpmc_task4_fico_bucketing.py
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 jpmorgan-quantitative-research/
@@ -172,7 +172,7 @@ Each task folder contains:
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 
 ### **Commodity Trading (Tasks 1-2):**
 - Natural gas prices exhibit strong seasonality (+$1.08 in winter)
@@ -187,7 +187,7 @@ Each task folder contains:
 
 ---
 
-## 📊 Sample Visualizations
+## Sample Visualizations
 
 ### Task 1: Price Forecasting
 ![Price Forecast](task1_gas_price_forecasting/outputs/price_forecast_analysis.png)
@@ -200,7 +200,7 @@ Each task folder contains:
 
 ---
 
-## 🎓 Skills Demonstrated
+## Skills Demonstrated
 
 **Quantitative Analysis:**
 - Time series modeling and forecasting
@@ -229,13 +229,13 @@ Each task folder contains:
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **JP Morgan Chase** for creating this comprehensive quantitative research simulation
 - **Forage** for hosting the virtual experience program
@@ -243,7 +243,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📧 Contact
+## Contact
 
 **[Your Name]**
 - LinkedIn: [Your LinkedIn Profile]
@@ -252,7 +252,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🌟 Star This Repository
+## Star This Repository
 
 If you found this project helpful or interesting, please consider giving it a ⭐!
 
